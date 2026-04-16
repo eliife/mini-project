@@ -11,7 +11,7 @@ Kullanıcının ad ve e-posta bilgilerini kontrol eden basit bir form doğrulama
 
 
 ## Canlı Demo
- https://eliife.github.io/mini-project/form-dogrulama
+ https://eliife.github.io/mini-project/formDogrulama
 
 
 ##  Not
