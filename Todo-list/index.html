@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Yapılacaklar Listesi</h1>
+
+        <div id="input_row">
+            <input type="text" id="taskInput" placeholder="Yeni bir görev ekle...">
+            <button id="görevekle">➕</button>
+        </div>
+        
+        <div class="controls-row">
+            <input type="date" id="sonTarihInput">
+            <select id="kategoriSec">
+                <option value="Tümü">Tümü</option>
+                <option value="İş">İş</option>
+                <option value="Okul">Okul</option>
+                <option value="Kişisel">Kişisel</option>
+            </select>
+        </div>
+
+        <ul id="taskList">
+            </ul> 
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
