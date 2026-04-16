@@ -1,0 +1,99 @@
+    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fcf4f4; /* Daha yumuşak bir krem-pembe */
+    color: #444;
+    padding: 40px 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    letter-spacing: -1px;
+    margin-bottom: 30px;
+    color: #ff8b94; /* Pastel pembe vurgu */
+    text-transform: uppercase;
+}
+
+/* Not Alanı Konteyneri */
+.note-container {
+    width: 100%;
+    max-width: 700px; 
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(255, 154, 162, 0.15);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+textarea {
+    width: 100%;
+    min-height: 200px;
+    padding: 15px;
+    border: 2px solid #fff0f0;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    resize: vertical; /* Sadece dikeyde büyütülebilir */
+    outline: none;
+    transition: border-color 0.3s ease;
+    background-color: #fffafa;
+}
+
+textarea:focus {
+    border-color: #ffb7b2;
+    background-color: #ffffff;
+}
+
+button {
+    background-color: #ff9aa2;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 8px;
+    align-self: flex-end; /* Butonu sağa yaslar */
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(255, 154, 162, 0.3);
+}
+
+button:hover {
+    background-color: #ff6f91;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(255, 111, 145, 0.4);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+
+#not-listesi {
+    margin-top: 30px;
+    width: 100%;
+    max-width: 700px;
+}
+
+
+.note-item {
+    background: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-left: 5px solid #ff9aa2;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
